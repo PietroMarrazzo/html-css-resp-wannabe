@@ -75,15 +75,22 @@ img {
 /* CSS MEDIA QUERY */
 /* mettere width a 100% */
 @media screen and (min-width: 1px) and (max-width:992px) {
-  body {
+  /* body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-}
+} */
 
 
 @media screen and (max-width: 420px) {
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0px;
+    }
+    
     .row,
     .steps,
     .why,
