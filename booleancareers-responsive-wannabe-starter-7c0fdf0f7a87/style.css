@@ -79,7 +79,6 @@ img {
       max-width: 100%;
 }
 
-
 @media screen and (max-width: 420px) {
     .row,
     .steps,
@@ -90,6 +89,45 @@ img {
     #steps .row>.central,
     #steps .row>.right {
       width: 100%;
+      background-size: 100%;
     }
 
+    #lezioni img,
+    #steps img {
+      padding-top: 50px;
+    }
+
+    * h1 {
+      margin: 0px auto;
+    }
+
+    #why .row {
+      margin-top: 60px;
+    }
+
+    #why .row .first,
+    #why .row .second,
+    #why .row .third {
+      margin-top: 45px;
+    }
+}
+
+/* CSS QUERY per TABLET 421-768px */
+@media screen and (min-width: 421px) and (max-width:991px) {
+    #lezioni .row>.left,
+    #lezioni .row>.right,
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 100%;
+      }
+
+    .row,
+    #lezioni .row>.left,
+    #lezioni .row>.right,
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      background-color: #f9f9f9;
+    }
 }
