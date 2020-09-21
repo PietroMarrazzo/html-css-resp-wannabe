@@ -79,11 +79,8 @@ img {
       max-width: 100%;
 }
 
-/* @media screen and (max-width: 420px) {
-    .row {
-      max-width: 100%;
-    } */
 
+@media screen and (max-width: 420px) {
     .row,
     .steps,
     .why,
@@ -95,8 +92,4 @@ img {
       width: 100%;
     }
 
- {
-    float: left;
-    width: 100%;
-}
 }
