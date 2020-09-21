@@ -74,7 +74,7 @@ img {
 
 /* CSS MEDIA QUERY */
 /* mettere width a 100% */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     body {
       max-width: 100%;
 }
@@ -112,7 +112,7 @@ img {
     }
 }
 
-/* CSS QUERY per TABLET 421-768px */
+/* CSS QUERY per TABLET 421-991px */
 @media screen and (min-width: 421px) and (max-width:991px) {
     #lezioni .row>.left,
     #lezioni .row>.right,
